@@ -1,0 +1,16 @@
+.follow {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background: #fff;
+    border: none;
+}
+
+.follow * {
+    margin-right: 10px;
+}
+
+.follow span {
+    color: #000;
+    font-size: 30px;
+}
