@@ -1,19 +1,199 @@
+
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<link rel="stylesheet" href="style.css" />
-		<title>Microsoft Official homepage</title>
-	</head>
 
-	<body>
-		<div class="container">
-			<nav class="main-nav"></nav>
-			<header class="showcase"></header>
-			<main></main>			
-		</div>
-		<footer>			
-		</footer>
-	</body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LLMs in Cybersecurity</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <!-- NAVIGATION -->
+        <nav class="main-nav">
+            <a href="#" class="logo">CYBER AI</a>
+
+            <ul class="main-menu">
+                <li><a href="#">Home</a></li>
+                <li><a href="#web">Recon & OSINT</a></li>
+                <li><a href="#bigdata">Threat Detection</a></li>
+                <li><a href="#risks">AI Risks</a></li>
+            </ul>
+        </nav>
+
+        <!-- PRESENTATION -->
+        <header class="showcase">
+            <h1>LLMs in Cybersecurity</h1>
+            <p>From Recon to Threat Detection</p>
+            <a href="#web" class="btn">Explore Cybersecurity Topics</a>
+        </header>
+
+        <!-- CYBERSECURITY TOPICS -->
+        <section class="home-cards" id="web">
+
+            <!-- 1. RECONNAISSANCE & OSINT -->
+            <article>
+                <img class="card-image"
+                     src="../Step2_layout2/img/osint.png"
+                     alt="OSINT analyst investigating public information">
+
+                <h3>Reconnaissance & OSINT</h3>
+
+                <p>
+                    Organize public information, identify targets
+                    and prioritize security investigations.
+                </p>
+
+                <a href="#bigdata">Explore Reconnaissance →</a>
+            </article>
+
+            <!-- 2. VULNERABILITY DISCOVERY -->
+            <article>
+                <img class="card-image"
+                     src="../Step2_layout2/img/vulnerability.jpg"
+                     alt="Software vulnerability and code analysis">
+
+                <h3>Vulnerability Discovery</h3>
+
+                <p>
+                    Analyze code, detect security weaknesses
+                    and understand potential risks.
+                </p>
+
+                <a href="#bigdata">Discover Vulnerability Analysis →</a>
+            </article>
+
+            <!-- 3. PENETRATION TESTING -->
+            <article>
+                <img class="card-image"
+                     src="../Step2_layout2/img/pentest.jpg"
+                     alt="Ethical hacker testing network security">
+
+                <h3>Penetration Testing</h3>
+
+                <p>
+                    Plan authorized security tests, analyze results
+                    and document findings.
+                </p>
+
+                <a href="#bigdata">Explore Penetration Testing →</a>
+            </article>
+
+            <!-- 4. MALWARE ANALYSIS -->
+            <article>
+                <img class="card-image"
+                     src="../Step2_layout2/img/malware.jpg"
+                     alt="Malware code and malicious software analysis">
+
+                <h3>Malware Analysis</h3>
+
+                <p>
+                    Investigate suspicious code, understand its
+                    behavior and extract indicators.
+                </p>
+
+                <a href="#bigdata">Learn About Malware Analysis →</a>
+            </article>
+
+        </section>
+
+        <!-- THREAT DETECTION -->
+        <section id="bigdata" class="bigData-intro">
+
+            <div class="content">
+                <h2>Threat Detection & SOC Analysis</h2>
+
+                <p>
+                    LLMs help security analysts summarize alerts,
+                    connect related events, investigate suspicious
+                    activity and prepare incident reports.
+                </p>
+
+                <a href="#contact" class="btn">
+                    Discover How LLMs Help Security Analysts
+                </a>
+            </div>
+
+        </section>
+
+        <!-- RISKS AND BEST PRACTICES -->
+        <section class="ruban dark" id="risks">
+
+            <div class="content">
+                <h2>The Risks of Using LLMs</h2>
+
+                <p>
+                    LLMs may generate inaccurate answers, expose
+                    sensitive information or suggest unsafe actions.
+                    Always verify their recommendations, protect
+                    confidential data and keep human expertise
+                    in control.
+                </p>
+
+                <a href="#contact" class="btn">
+                    Explore AI Security Best Practices
+                </a>
+            </div>
+
+        </section>
+
+        <!-- FOLLOW -->
+        <section class="follow" id="contact">
+
+            <h3>LLMs: Powerful Assistants, Not Security Experts</h3>
+
+            <a href="#web">Recon & OSINT</a>
+            <a href="#bigdata">Threat Detection</a>
+            <a href="#risks">AI Risks</a>
+
+        </section>
+
+        <!-- LINKS -->
+        <section class="links">
+
+            <div class="links-inner">
+
+                <div>
+                    <h3>Reconnaissance</h3>
+                    <ul>
+                        <li><a href="#web">OSINT Investigations</a></li>
+                        <li><a href="#web">Public Information</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h3>Threat Detection</h3>
+                    <ul>
+                        <li><a href="#bigdata">SOC Analysis</a></li>
+                        <li><a href="#bigdata">Security Alerts</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h3>AI Security</h3>
+                    <ul>
+                        <li><a href="#risks">AI Risks</a></li>
+                        <li><a href="#risks">Best Practices</a></li>
+                    </ul>
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- FOOTER -->
+        <footer>
+            <p>
+                © 2026 LLMs in Cybersecurity.
+                All rights reserved.
+            </p>
+        </footer>
+
+    </div>
+
+</body>
 </html>
